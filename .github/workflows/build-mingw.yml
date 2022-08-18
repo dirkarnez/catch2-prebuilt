@@ -42,3 +42,4 @@ jobs:
         with:
           artifacts: "catch2/build/${{ env.cmakeInstallationPath }}/${{ env.mingwTargetZip }}"
           allowUpdates: true
+          token: ${{ secrets.GITHUB_TOKEN }}
